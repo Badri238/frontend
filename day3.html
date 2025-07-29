@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="test.css">
+</head>
+<!-- 3 ways inline -> internal -> external -->
+<style>
+
+
+p::after{
+    content: "he";
+}
+    #p2{
+        color: blue;
+    }
+    #p2:hover{
+        color: red
+    }
+    input:focus{
+        background-color: yellow;
+    }
+    .p7{
+        color: brown;
+    }
+    a:active{
+        color: green;
+    }
+
+</style>
+<body>
+    <!--Id, class ,element, pseudo class, pseudo element  -->
+    <!-- Html -->
+    <iframe src="day2.html" frameborder="0"></iframe>
+    <p style="color: blue;">Hello</p>
+    <p id="p2" class="p7">P tag without inline</p>
+    <p class="p2 p4 p5 p6">P tag without inline</p>
+    <p>P tag without inline</p>
+    <input type="text">
+    <a href="https://www.google.com">Google</a>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi cum earum beatae rem obcaecati non omnis, amet culpa accusamus possimus eaque quisquam totam aperiam qui iure? Eaque, rerum aspernatur. Delectus quis odio aliquam sed exercitationem sint laborum nesciunt distinctio incidunt beatae esse molestiae ipsa blanditiis aut nostrum, obcaecati dolorum totam!</p>
+</body>
+</html>

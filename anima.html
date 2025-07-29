@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #navMobile{
+        height: 8vh;
+    width: 100vw;
+    color: white;
+    background-color: rgb(21, 21, 2);
+    display: none;
+    }
+    @media screen and (max-width:600px) {
+        #navMobile{
+        display: flex;
+        justify-content: space-between;
+        }
+        #nav{
+            display: none !important;
+        }
+    }
+   #nav{
+    height: 8vh;
+    width: 100vw;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+   }
+   #left,#right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+   }
+</style>
+<body>
+    <div id="navMobile">
+        <p>Home</p>
+        <p>Bootstrap</p>
+        <p>Search</p>
+    </div>
+    <div id="nav">
+        <div id="left">
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+        </div>
+        <input type="text">
+        <div id="right">
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+        </div>
+    </div>
+</body>
+</html>
