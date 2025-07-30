@@ -22,5 +22,7 @@ console.log({ name: "js" } * { "name": "js" });
 //> < >= <= == !=
 console.log("2" > 12);
 console.log("d" > "a");
-console.log([2,3]<[7]);
+console.log([2, 3] < [7]);
+
+
 //[2,3]>[1,4]
